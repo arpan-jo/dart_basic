@@ -7,9 +7,9 @@ class BankAccount {
     nrOfObjects++;
   } //default constructor
 
-  BankAccount.newClient() : _balance = 0;
+  // BankAccount.newClient() : _balance = 0; // named constructor
 
-  BankAccount.newVIP(double startAmmount) : _balance = startAmmount * 2;
+  // BankAccount.newVIP(double startAmmount) : _balance = startAmmount * 2; // named constructor
 
   double get balance => _balance;
 
